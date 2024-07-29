@@ -4,18 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kopi Kenangan senja</title>
+    <title>Mitramuda</title>
 
     <!-- My Icon -->
-    <link rel="shortcut icon" href="img/menu/1.jpg" />
+    <link rel="shortcut icon" href="img/logo.jpg" />
 
     <!-- My Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,700&display=swap"
       rel="stylesheet"
-    />
+    /> 
 
     <!-- My Feather Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
@@ -26,160 +25,140 @@
   <body>
     <!-- Navbar Start -->
     <nav class="navbar">
-      <a href="#" class="navbar-logo">kenangan<span>dia</span>.</a>
+    <a href="" class="navbar-logo">
+        <img src="./img/logo.jpg" alt="MITRAmuda Logo" class="logo-image">
+      </a>
       <div class="navbar-nav">
-        <a href="#home">Home</a>
-        <a href="#about">Tentang Kami</a>
-        <a href="#menu">Menu</a>
-        <a href="#contact">Kontak</a>
+        <div class="nav-item">
+          <a href="index.html">HALAMAN UTAMA</a>
+        </div>
+        <div class="nav-item">
+          <a href="infobahan.html">INFO BAHAN</a>
+          <div class="dropdown">
+            <a href="./bahan/atap.html">ATAP</a>
+            <a href="./bahan/besi.html">BESI</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="infoproduk.html">INFO PRODUK</a>
+          <div class="dropdown">
+            <a href="./produk/pintu.html">PINTU</a>
+            <a href="./produk/grill.html">GRILL</a>
+            <a href="./produk/canopi.html">CANOPI</a>
+            <a href="./produk/tangga.html">TANGGA</a>
+            <a href="./produk/pagar.html">PAGAR</a>
+            <a href="./produk/tralis.html">TRALIS</a>
+            <a href="./produk/meja.html">MEJA</a>
+            <a href="./produk/reling.html">RELING BALKON</a>
+            <a href="./produk/tiangtorn.html">TIANG TORN</a>
+            <a href="./produk/kontruksi.html">KONSTRUSKI BAJA</a>
+          </div>
+        </div>
+        <!-- <div class="nav-item">
+          <a href="">INVOICE</a>
+          <div class="dropdown">
+            <a href="#contact1">Submenu 1</a>
+            <a href="#contact2">Submenu 2</a>
+          </div> -->
+        </div>
       </div>
 
       <div class="navbar-extra">
-        <a href="#" id="search">
-          <i data-feather="search"></i>
-        </a>
-        <a href="#" id="shopping-cart">
-          <i data-feather="shopping-cart"></i>
-        </a>
         <a href="#" id="hamburger-menu">
           <i data-feather="menu"></i>
         </a>
       </div>
     </nav>
-    <!-- Navbar End -->
 
-    <!-- Hero Section Start-->
+    <!-- Navbar End -->
+         <!-- Hero Section Start-->
+         
     <section class="hero" id="home">
       <main class="content">
-        <h1>Mari Nikmati Secangkir <span>Kopi</span></h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, iste!
-        </p>
-        <a href="#" class="cta">Beli Sekarang</a>
+        <h1><span>BENGKEL LAS LISTRIK  | | MITRA MUDA</span></h1>
+        
+        <a href="infoproduk.html" class="cta">LIHAT PRODUK</a>
       </main>
     </section>
+    <div class="circular-popup" id="circular-popup">
+      <p>Diskon 10% & FREE SURVEI LOKASI</p>
+      <a href="javascript:void(0)" id="whatsapp-link">KLIK INI</a>
+    </div>
+
     <!-- Hero Section End-->
 
     <!-- About Section Start -->
     <section id="about" class="about">
       <h2><span>Tentang</span> Kami</h2>
-      <div class="row">
+      <div class="content">
+        <h3>Kenapa memilih bengkel las  kami?</h3>
+        <h3>
+          bisa tanya tanya harga dan custom sesuai yg di inginkan klik whatsapp link di bagian contact di bawah
+        </h3>
+      </div>
+      <div class="images">
         <div class="about-img">
-          <img src="img/tentang-kami.jpg" alt="Tentang Kami" />
+          <img src="img/tengah.jpg" alt="Tentang Kami" />
         </div>
-        <div class="content">
-          <h3>Kenapa memilih kopi kami?</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            voluptates provident ipsa veritatis cum cupiditate!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias fuga
-            ipsa incidunt voluptas doloribus, ea sit doloremque est cupiditate
-            laboriosam.
-          </p>
+        <div class="about-img">
+          <img src="img/RAB.jpg" alt="Tentang Kami" />
         </div>
       </div>
     </section>
     <!-- About Section End -->
 
-    <!-- Menu Section Start -->
-    <section id="menu" class="menu">
-      <h2><span>Menu</span> Kami</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni maiores
-        eos vero sit labore asperiores.
-      </p>
-      <div class="row">
-        <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espreso" class="menu-card-img" />
-          <h3 class="menu-card-title">- Espresso -</h3>
-          <p class="menu-card-price">IDR 15K</p>
-        </div>
-        <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espreso" class="menu-card-img" />
-          <h3 class="menu-card-title">- Espresso -</h3>
-          <p class="menu-card-price">IDR 15K</p>
-        </div>
-        <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espreso" class="menu-card-img" />
-          <h3 class="menu-card-title">- Espresso -</h3>
-          <p class="menu-card-price">IDR 15K</p>
-        </div>
-        <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espreso" class="menu-card-img" />
-          <h3 class="menu-card-title">- Espresso -</h3>
-          <p class="menu-card-price">IDR 15K</p>
-        </div>
-        <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espreso" class="menu-card-img" />
-          <h3 class="menu-card-title">- Espresso -</h3>
-          <p class="menu-card-price">IDR 15K</p>
-        </div>
-        <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espreso" class="menu-card-img" />
-          <h3 class="menu-card-title">- Espresso -</h3>
-          <p class="menu-card-price">IDR 15K</p>
-        </div>
-      </div>
-    </section>
-    <!-- Menu Section End -->
-
     <!-- Contact Section Start -->
-    <section id="contact" class="contact">
-      <h2><span>Kontak</span> Kami</h2>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum,
-        corporis.
-      </p>
-      <div class="row">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.866157315046!2d106.8477443!3d-6.2813203999999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f26a39411b1d%3A0x563ebed58b07da4c!2sJl.%20Pagu%20Jaten%2C%20Pejaten%20Timur%2C%20Ps.%20Minggu%2C%20Kota%20Jakarta%20Selatan%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2012510!5e0!3m2!1sid!2sid!4v1676573475818!5m2!1sid!2sid"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          class="map"
-        ></iframe>
+<section  class="contact">
+  <h2><span>Kontak</span> Kami</h2>
+  <p>
+    Untuk pemesanan melalui web akan mendapat diskon 5%
+  </p>
+  <div class="row">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.2513958380473!2d107.8439380741075!3d-6.979634968345815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c5cb9fa68561%3A0x2a1ef16fa3c7636e!2sBENGKEL%20LAS%20MITRA%20MUDA!5e0!3m2!1sid!2sid!4v1721654896958!5m2!1sid!2sid"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      class="map"
+    ></iframe>
 
-        <form action="">
-          <div class="input-group">
-            <i data-feather="user"></i>
-            <input type="text" placeholder="Nama Lengkap" />
-          </div>
-          <div class="input-group">
-            <i data-feather="mail"></i>
-            <input type="email" placeholder="Email Aktif" />
-          </div>
-          <div class="input-group">
-            <i data-feather="phone"></i>
-            <input type="number" placeholder="Nomor Telepon" />
-          </div>
-          <button type="submit" class="btn">Kirim Pesan</button>
-        </form>
+    <div class="info">
+      <h3>Alamat Kami</h3>
+      <p>Kp malingping, RT.01/RW.08, Tenjolaya, Kabupaten Bandung, Jawa Barat 40395</p>
+      <h3>Ikuti Kami</h3>
+      <div class="social-links">
+        <a href="https://www.instagram.com/mitramuda05/" target="_blank"><i data-feather="instagram"></i> Instagram</a>
+        <a href="https://api.whatsapp.com/send?phone=6285649485250&text=Saya+ingin+Menanyakan+Produk+Yang+Tersedia+DiBengkel+Las+Mitra+Muda" target="_blank"><i data-feather="phone"></i> WhatsApp</a>
+        <a href="https://facebook.com" target="_blank"><i data-feather="facebook"></i> Facebook</a>
+        <a href="https://youtube.com" target="_blank"><i data-feather="youtube"></i> YouTube</a>
       </div>
-    </section>
-    <!-- Contact Section End -->
+    </div>
+  </div>
+</section>
+<!-- Contact Section End -->
+<footer>
+  <div class="socials">
+    <a href="https://instagram.com/adeathbiasaaja?igshid=ZDdkNTZiNTM="
+      ><i data-feather="instagram"></i
+    ></a>
+    <a href="https://youtube.com/@ADITPEDIA-nr3mk"
+      ><i data-feather="youtube"></i
+    ></a>
+    <a href="https://github.com/ADIT3456"><i data-feather="github"></i></a>
+  </div>
+  <div class="links">
+    <a href="#home">Home</a>
+    <a href="#about">Tentang Kami</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Kontak</a>
+  </div>
+  <div class="credit">
+    <p>Created by <a href="#">@aditr1</a>. | <span>&copy; 2023</span></p>
+  </div>
+</footer>
 
-    <!-- Footer Start -->
-    <footer>
-      <div class="socials">
-        <a href="https://instagram.com/adeathbiasaaja?igshid=ZDdkNTZiNTM="><i data-feather="instagram"></i></a>
-        <a href="https://youtube.com/@ADITPEDIA-nr3mk"><i data-feather="youtube"></i></a>
-        <a href="https://github.com/ADIT3456"><i data-feather="github"></i></a>
-      </div>
-      <div class="links">
-        <a href="#home">Home</a>
-        <a href="#about">Tentang Kami</a>
-        <a href="#menu">Menu</a>
-        <a href="#contact">Kontak</a>
-      </div>
-      <div class="credit">
-        <p>
-          Created by <a href="#">@aditr1</a>. | <span>&copy; 2023</span>
-        </p>
-      </div>
-    </footer>
-    <!-- Footer End -->
+
+
 
     <!-- My Feather Icons -->
     <script>
